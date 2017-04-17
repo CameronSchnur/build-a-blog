@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+
+  <div class="body">
+    <div class="body-title"><a href="/blog/{{body.key().id()}}">{{body.title}}</a></div>
+    <pre class="body-body">{{body.body}}</pre>
+  </div>
+
+{% endblock %}
